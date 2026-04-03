@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+Logs/
+*.log
+logs/
+
+# Model files (keep trained_model.h5, but ignore others)
+Model/*.h5.backup
+Model/*.hdf5
+Model/*.zip
+Model/checkpoints/
+*.pb
+*.pbtxt
+saved_model/
+
+# Data
+data1/
+Data/Test/
+Data/Train/
+Data/Validation/
+*.jpg
+*.jpeg
+*.png
+*.gif
+dataset/
+raw_data/
+
+# TensorFlow/Keras
+.keras/
+*.pb
+*.pbtxt
+tf_logs/
+tensorboard_logs/
+runs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Environment variables
+.env
+.env.local
+
+# Cache
+*.cache
+.cache/
